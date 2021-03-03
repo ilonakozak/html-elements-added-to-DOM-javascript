@@ -33,3 +33,65 @@ ul.nav__ul {
 ul.nav__ul>li {
     padding-right: 1rem;
 }
+
+/* Main section */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+main img {
+    width: auto;
+    margin: 7rem auto 1rem;
+}
+
+/* Input search */
+#search {
+    padding: 1rem 2rem;
+    background: white;
+    background-image: url();
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 2rem;
+    width: 40%;
+}
+
+/* Buttons */
+
+.section__buttons {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    padding: 2rem
+}
+
+.section__buttons-button {
+    padding: 0.6rem 2rem;
+    background: rgb(230, 230, 230);
+    color: rgb(77, 77, 77);
+    border: none;
+    border-radius: 0.3rem;
+    margin: 1rem 2rem;
+}
+
+/* Lang */
+
+.section__lang {
+    display: flex;
+    font-size: 0.9rem;
+}
+
+.section__lang ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    font-weight: normal;
+}
+
+.section__lang ul>li>a {
+    color: darkslateblue;
+    margin: 1rem;
+}
