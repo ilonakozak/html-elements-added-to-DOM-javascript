@@ -151,7 +151,7 @@ footer .footer__right {
 /* Responsive */
 
 @media screen and (max-width: 1140px) {
-    .input-field {
+    #search {
         width: 70%;
     }
 
