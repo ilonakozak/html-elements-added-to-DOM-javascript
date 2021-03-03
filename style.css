@@ -95,3 +95,55 @@ main img {
     color: darkslateblue;
     margin: 1rem;
 }
+
+/* Footer */
+
+footer {
+    background: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer .footer__text {
+    width: 100%;
+    min-height: 3rem;
+    padding: 1rem;
+}
+
+/* Footer sections */
+
+footer .footer__left {
+    padding: 1rem;
+    width: 30%;
+    border-top: 1px solid rgb(219, 219, 219);
+}
+
+.footer__left ul {
+    min-height: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .footer__right {
+    width: 70%;
+    padding: 1rem;
+    border-top: 1px solid rgb(219, 219, 219);
+}
+
+.footer__right ul {
+    min-height: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer__right ul>li {
+    margin-right: 2rem;
+}
