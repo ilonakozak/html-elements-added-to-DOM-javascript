@@ -147,3 +147,33 @@ footer .footer__right {
 .footer__right ul>li {
     margin-right: 2rem;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 1140px) {
+    .input-field {
+        width: 70%;
+    }
+
+    .section__buttons {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer .footer__left {
+        width: 100%;
+        justify-content: center;
+    }
+
+    footer .footer__right {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer__right ul {
+        justify-content: center;
+    }
+}
