@@ -10,3 +10,26 @@ a {
     color: rgba(0, 0, 0, 0.87);
 }
 
+/* Header */
+.nav {
+    min-height: 10vh;
+    display: inline-flex;
+    width: 100%;
+    padding: 1rem;
+    align-items: self-end;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+ul.nav__ul {
+    display: flex;
+    flex: 0.1 1 1rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 0.8rem;
+}
+
+ul.nav__ul>li {
+    padding-right: 1rem;
+}
